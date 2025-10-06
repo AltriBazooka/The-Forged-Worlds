@@ -83,7 +83,7 @@ export default function Footer() {
                 All Products
               </Link>
               <Link href="/category/food" className="text-sm text-muted-foreground hover:text-primary">
-                Dog Food
+                Pet Food
               </Link>
               <Link href="/category/accessories" className="text-sm text-muted-foreground hover:text-primary">
                 Accessories
@@ -131,12 +131,11 @@ export default function Footer() {
             </nav>
           </div>
           <div className="space-y-4">
-            <h3 className="text-sm font-medium">Contact</h3>
-            <div className="flex flex-col space-y-2 text-sm text-muted-foreground">
-              <p>123 Pet Street, Dogville</p>
-              <p>New York, NY 10001</p>
+            <div className="grid gap-2">
+              <h3 className="text-lg font-semibold">Contact Us</h3>
               <p>Email: info@theforgedworlds.com</p>
               <p>Phone: (123) 456-7890</p>
+              <p>Address: 123 Petville, Pet City, PA 12345</p>
             </div>
           </div>
         </div>

@@ -26,7 +26,7 @@ export default function ShopPage() {
   const products = [
     {
       id: 1,
-      name: "Premium Dog Food",
+      name: "Premium Pet Food",
       image:
         "https://images.unsplash.com/photo-1589924691995-400dc9ecc119?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3",
       price: 49.99,
@@ -37,7 +37,7 @@ export default function ShopPage() {
     },
     {
       id: 2,
-      name: "Comfortable Dog Bed",
+      name: "Comfortable Pet Bed",
       image:
         "https://images.unsplash.com/photo-1541599468348-e96984315921?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
       price: 89.99,
@@ -48,7 +48,7 @@ export default function ShopPage() {
     },
     {
       id: 3,
-      name: "Interactive Dog Toy",
+      name: "Interactive Pet Toy",
       image:
         "https://images.unsplash.com/photo-1575425186775-b8de9a427e67?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
       price: 24.99,
@@ -59,7 +59,7 @@ export default function ShopPage() {
     },
     {
       id: 4,
-      name: "Dog Grooming Kit",
+      name: "Pet Grooming Kit",
       image:
         "https://images.unsplash.com/photo-1607734834519-d8576ae60ea6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
       price: 34.99,
@@ -70,7 +70,7 @@ export default function ShopPage() {
     },
     {
       id: 5,
-      name: "Organic Dog Treats",
+      name: "Organic Pet Treats",
       image:
         "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3",
       price: 19.99,
@@ -81,7 +81,7 @@ export default function ShopPage() {
     },
     {
       id: 6,
-      name: "Dog Collar with Name Tag",
+      name: "Pet Collar with Name Tag",
       image:
         "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
       price: 14.99,
@@ -103,7 +103,7 @@ export default function ShopPage() {
     },
     {
       id: 8,
-      name: "Dog Shampoo",
+      name: "Pet Shampoo",
       image:
         "https://images.unsplash.com/photo-1583511655826-05700442982d?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
       price: 12.99,

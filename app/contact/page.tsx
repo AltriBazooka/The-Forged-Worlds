@@ -109,13 +109,9 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-medium">Address</h3>
-                    <address className="not-italic text-muted-foreground">
-                      123 Pet Street
-                      <br />
-                      Dogville, NY 10001
-                      <br />
-                      United States
-                    </address>
+                    <p className="text-muted-foreground">
+                      Visit us at 123 Petville, Pet City, PA 12345 or call us at (123) 456-7890.
+                    </p>
                   </div>
                 </div>
 

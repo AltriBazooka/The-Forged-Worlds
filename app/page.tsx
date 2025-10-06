@@ -17,7 +17,7 @@ export default function HomePage() {
   const featuredProducts = [
     {
       id: 1,
-      name: "Premium Dog Food",
+      name: "Premium Pet Food",
       image:
         "https://images.unsplash.com/photo-1589924691995-400dc9ecc119?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3",
       price: 49.99,
@@ -26,7 +26,7 @@ export default function HomePage() {
     },
     {
       id: 2,
-      name: "Comfortable Dog Bed",
+      name: "Comfortable Pet Bed",
       image:
         "https://images.unsplash.com/photo-1541599468348-e96984315921?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
       price: 89.99,
@@ -35,7 +35,7 @@ export default function HomePage() {
     },
     {
       id: 3,
-      name: "Interactive Dog Toy",
+      name: "Interactive Pet Toy",
       image:
         "https://images.unsplash.com/photo-1575425186775-b8de9a427e67?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
       price: 24.99,
@@ -44,7 +44,7 @@ export default function HomePage() {
     },
     {
       id: 4,
-      name: "Dog Grooming Kit",
+      name: "Pet Grooming Kit",
       image:
         "https://images.unsplash.com/photo-1607734834519-d8576ae60ea6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
       price: 34.99,
@@ -60,7 +60,7 @@ export default function HomePage() {
       image:
         "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
       rating: 5,
-      text: "My dog absolutely loves the premium food I purchased from The Forged Worlds. The quality is exceptional and delivery was super fast!",
+      text: "My pet absolutely loves the premium food I purchased from The Forged Worlds. The quality is exceptional and delivery was super fast!",
     },
     {
       id: 2,
@@ -68,7 +68,7 @@ export default function HomePage() {
       image:
         "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
       rating: 5,
-      text: "The dog bed I bought is amazing quality. My furry friend hasn't left it since it arrived. Great customer service too!",
+      text: "The pet bed I bought is amazing quality. My furry friend hasn\'t left it since it arrived. Great customer service too!",
     },
     {
       id: 3,
@@ -88,7 +88,7 @@ export default function HomePage() {
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div className="space-y-4">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
-                Everything Your Dog Needs in One Place
+                Everything Your Pet Needs in One Place
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
                 Premium quality products for your furry friends. From nutritious food to comfortable accessories.
@@ -105,7 +105,7 @@ export default function HomePage() {
             <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] rounded-xl overflow-hidden">
               <Image
                 src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3"
-                alt="Happy dog"
+                alt="Happy pet"
                 fill
                 className="object-cover"
                 priority
